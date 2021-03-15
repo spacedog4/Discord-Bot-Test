@@ -4,12 +4,12 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.once('ready', () => {
-    console.log('Bot test is online!');
+    console.log('Bot shutup patrick is online!');
 });
 
 client.on('message', msg => {
-    if(msg.content === ';ping') {
-        msg.channel.send('Pong!');
+    if(msg.author.id === '276843468981272587') {
+        msg.reply('cala a boca patrick');
     }
 });
 
