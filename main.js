@@ -9,7 +9,7 @@ client.once('ready', () => {
 
 client.on('message', msg => {
     if(msg.author.id === '276843468981272587') {
-        msg.reply('cala a boca patrick');
+        msg.reply('cala a boca patrick!');
     }
 });
 
